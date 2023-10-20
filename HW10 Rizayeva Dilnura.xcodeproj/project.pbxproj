@@ -10,7 +10,6 @@
 		3B72532B2AE2F83A0014E0FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B72532A2AE2F83A0014E0FE /* AppDelegate.swift */; };
 		3B72532D2AE2F83A0014E0FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B72532C2AE2F83A0014E0FE /* SceneDelegate.swift */; };
 		3B72532F2AE2F83A0014E0FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B72532E2AE2F83A0014E0FE /* ViewController.swift */; };
-		3B7253322AE2F83A0014E0FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7253302AE2F83A0014E0FE /* Main.storyboard */; };
 		3B7253342AE2F83F0014E0FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7253332AE2F83F0014E0FE /* Assets.xcassets */; };
 		3B7253372AE2F83F0014E0FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7253352AE2F83F0014E0FE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		3B72532A2AE2F83A0014E0FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B72532C2AE2F83A0014E0FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3B72532E2AE2F83A0014E0FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3B7253312AE2F83A0014E0FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B7253332AE2F83F0014E0FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B7253362AE2F83F0014E0FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B7253382AE2F83F0014E0FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 				3B72532A2AE2F83A0014E0FE /* AppDelegate.swift */,
 				3B72532C2AE2F83A0014E0FE /* SceneDelegate.swift */,
 				3B72532E2AE2F83A0014E0FE /* ViewController.swift */,
-				3B7253302AE2F83A0014E0FE /* Main.storyboard */,
 				3B7253332AE2F83F0014E0FE /* Assets.xcassets */,
 				3B7253352AE2F83F0014E0FE /* LaunchScreen.storyboard */,
 				3B7253382AE2F83F0014E0FE /* Info.plist */,
@@ -127,7 +124,6 @@
 			files = (
 				3B7253372AE2F83F0014E0FE /* LaunchScreen.storyboard in Resources */,
 				3B7253342AE2F83F0014E0FE /* Assets.xcassets in Resources */,
-				3B7253322AE2F83A0014E0FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3B7253302AE2F83A0014E0FE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B7253312AE2F83A0014E0FE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3B7253352AE2F83F0014E0FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +282,7 @@
 				INFOPLIST_FILE = "HW10 Rizayeva Dilnura/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +294,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,7 +310,7 @@
 				INFOPLIST_FILE = "HW10 Rizayeva Dilnura/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +322,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
